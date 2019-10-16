@@ -1,5 +1,6 @@
-*In the latest steamvr the config file is locate in `~/.local/share/Stream/config/steamvr.vrsettings`, this file should also be modified.
-The following gives a template.*
+**In the latest steamvr the config file is locate in `~/.local/share/Stream/config/steamvr.vrsettings`, this file should also be modified.
+The following gives a template.**
+
 ``
 {
    "DesktopUI" : {
