@@ -1,12 +1,11 @@
 **In the latest steamvr the config file is locate in `~/.local/share/Stream/config/steamvr.vrsettings`, this file should also be modified.
 The following gives a template.**
 
-``
+```
 {
    "DesktopUI" : {
       "controllerbinding_desktop" : "929,552,1920,1080,0"
    },
-   
    "DismissedWarnings" : {
       "DismissableWarning_BasestationSingleBaseModeHint" : true,
       "DismissableWarning_BasestationsTooFarApart" : true,
@@ -14,7 +13,6 @@ The following gives a template.**
       "DismissableWarning_UnknownHardwareDetected" : true,
       "DismissableWarning_WarningsForTheFirstTime" : true
    },
-   
    "GpuSpeed" : {
       "gpuSpeed0" : 295,
       "gpuSpeed1" : 308,
@@ -33,26 +31,21 @@ The following gives a template.**
       "gpuSpeedVendor" : "NVIDIA GeForce GTX 1060",
       "gpuSpeedVersion" : 2
    },
-   
    "LastKnown" : {
       "HMDModel" : "Null Model Number"
    },
-   
    "audio" : {
       "onPlaybackDevice" : "{0.0.0.00000000}.{acafad44-b803-4893-87a1-4dd5c3dee089}"
    },
-   
    "camera" : {
       "enableCamera" : true
    },
-   
    "collisionBounds" : {
       "CollisionBoundsColorGammaA" : 224,
       "CollisionBoundsColorGammaB" : 221,
       "CollisionBoundsGroundPerimeterOn" : true,
       "CollisionBoundsStyle" : 4
    },
-   
    "driver_null" : {
       "displayFrequency" : 60,
       "enable" : true,
@@ -67,17 +60,14 @@ The following gives a template.**
       "windowX" : 100,
       "windowY" : 100
    },
-   
    "driver_vridge" : {
       "renderScale" : 0,
       "windowHeight" : 720,
       "windowWidth" : 1280
    },
-   
    "keyboard" : {
       "TutorialCompletions" : 1
    },
-   
    "steamvr" : {
       "activateMultipleDrivers" : true,
       "enableHomeApp" : false,
@@ -89,7 +79,7 @@ The following gives a template.**
       "supersampleScale" : 2
    }
 }
-``
+```
 
 ---
 
