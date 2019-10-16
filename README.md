@@ -1,3 +1,88 @@
+*In the latest steamvr the config file is locate in `~/.local/share/Stream/config/steamvr.vrsettings`, this file should also be modified.
+The following gives a template.*
+``
+{
+   "DesktopUI" : {
+      "controllerbinding_desktop" : "929,552,1920,1080,0"
+   },
+   "DismissedWarnings" : {
+      "DismissableWarning_BasestationSingleBaseModeHint" : true,
+      "DismissableWarning_BasestationsTooFarApart" : true,
+      "DismissableWarning_RunTutorialAgain" : true,
+      "DismissableWarning_UnknownHardwareDetected" : true,
+      "DismissableWarning_WarningsForTheFirstTime" : true
+   },
+   "GpuSpeed" : {
+      "gpuSpeed0" : 295,
+      "gpuSpeed1" : 308,
+      "gpuSpeed2" : 292,
+      "gpuSpeed3" : 307,
+      "gpuSpeed4" : 308,
+      "gpuSpeed5" : 298,
+      "gpuSpeed6" : 308,
+      "gpuSpeed7" : 308,
+      "gpuSpeed8" : 334,
+      "gpuSpeed9" : 330,
+      "gpuSpeedCount" : 10,
+      "gpuSpeedDriver" : "24.21.13.9836",
+      "gpuSpeedHorsepower" : 306,
+      "gpuSpeedRenderTargetScale" : 2,
+      "gpuSpeedVendor" : "NVIDIA GeForce GTX 1060",
+      "gpuSpeedVersion" : 2
+   },
+   "LastKnown" : {
+      "HMDModel" : "Null Model Number"
+   },
+   "audio" : {
+      "onPlaybackDevice" : "{0.0.0.00000000}.{acafad44-b803-4893-87a1-4dd5c3dee089}"
+   },
+   "camera" : {
+      "enableCamera" : true
+   },
+   "collisionBounds" : {
+      "CollisionBoundsColorGammaA" : 224,
+      "CollisionBoundsColorGammaB" : 221,
+      "CollisionBoundsGroundPerimeterOn" : true,
+      "CollisionBoundsStyle" : 4
+   },
+   "driver_null" : {
+      "displayFrequency" : 60,
+      "enable" : true,
+      "id" : "Null Driver",
+      "renderHeight" : 300,
+      "renderWidth" : 540,
+      "secondsFromVsyncToPhotons" : 0.10000000149011612,
+      "serialNumber" : "Null 4711",
+      "visible" : false,
+      "windowHeight" : 300,
+      "windowWidth" : 540,
+      "windowX" : 100,
+      "windowY" : 100
+   },
+   "driver_vridge" : {
+      "renderScale" : 0,
+      "windowHeight" : 720,
+      "windowWidth" : 1280
+   },
+   "keyboard" : {
+      "TutorialCompletions" : 1
+   },
+   "steamvr" : {
+      "activateMultipleDrivers" : true,
+      "enableHomeApp" : false,
+      "installID" : "3451860923536151750",
+      "lastVersionNotice" : "1.2.7",
+      "lastVersionNoticeDate" : "1547586496",
+      "mirrorViewGeometry" : "66 105 971 602",
+      "showMirrorView" : true,
+      "supersampleScale" : 2
+   }
+}
+``
+
+---
+
+
 [![Link to a video of this project in action.](https://img.youtube.com/vi/fvbSUXGViSY/0.jpg)](https://youtu.be/fvbSUXGViSY)
 
 This ROS Indigo Node publishes pose data from HTC Vive Tracker Ubuntu 14.04. 
