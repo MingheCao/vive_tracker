@@ -81,6 +81,8 @@ The following gives a template.**
 }
 ```
 
+# Should use pyopenvr version eariler than 1.3.2201 for python 2.7 compatibility.(https://github.com/cmbruns/pyopenvr/releases)
+
 ---
 
 
